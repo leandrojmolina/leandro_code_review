@@ -36,7 +36,7 @@ namespace App.Data.Repository
 
             if(roles != null)
             {
-                //add de roles into User
+                //add roles into User
                 foreach (var role in roles)
                 {
                     var _user = filter.FirstOrDefault(o => o.Id == role.UserId);
